@@ -61,7 +61,8 @@ export default function Hero() {
 
                 {/* Profile Image */}
                 <img
-                    src="/Public/profile.png"
+                    src={`${import.meta.env.BASE_URL}profile.png`}
+
                     alt="Profile"
                     className="relative z-10 w-[350px] object-cover lg:w-[530px]"
                 />
