@@ -8,7 +8,7 @@ const projects = [
   {
     title: "PocketLens",
     category: "Full Stack",
-    image: "/Project-1.png",
+    image: `${import.meta.env.BASE_URL}profile.png`,
     description: "Expense tracker app built with React, Django, and PostgreSQL.",
     tags: ["React", "Django", "PostgreSQL"],
     link: "https://github.com/chaitanya7113/PocketLens-Expense-Tracker.git",
